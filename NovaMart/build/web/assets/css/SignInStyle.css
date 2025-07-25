@@ -1,0 +1,18 @@
+/* Additional styles for login page */
+.forgot-password {
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.forgot-password:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+/* Make the login card slightly narrower than signup */
+@media (min-width: 768px) {
+    .login-card {
+        max-width: 450px;
+    }
+}
+

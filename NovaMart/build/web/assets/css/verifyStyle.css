@@ -1,0 +1,50 @@
+/* Add these styles to your existing styles.css */
+
+.verification-container {
+    background-color: white;
+    border-radius: 0.35rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    padding: 2rem;
+}
+
+.verification-icon {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.countdown-container {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#countdown {
+    color: var(--primary-color);
+}
+
+.alternative-options {
+    background-color: var(--secondary-color);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.alternative-options a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.alternative-options a:hover {
+    text-decoration: underline;
+}
+
+/* Animation for resend button */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn-pulse {
+    animation: pulse 2s infinite;
+}
+
